@@ -67,7 +67,7 @@ public class TheManager : MonoBehaviour
             infoTextTMP.text = content.displayText;
 
             // Update the display image (if assigned)
-       
+
         }
         else
         {
