@@ -72,5 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /Assets/SamplesResources/AugmentationAssets/Models/Astronaut.FBX
-Assets/Editor/Migration/com.ptc.vuforia.engine-10.25.4.tgz
+/Assets/Editor/Migration/com.ptc.vuforia.engine-10.25.4.tgz
 /Packages/com.ptc.vuforia.engine-*.tgz
