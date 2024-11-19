@@ -16,9 +16,9 @@ PlayerSettings:
   productName: VEyes
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 0
-  m_ShowUnitySplashLogo: 0
+  m_SplashScreenBackgroundColor: {r: 0.011764706, g: 0.18039216, b: 0.42352942, a: 1}
+  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
@@ -39,7 +39,9 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: e0866a3fe6007224a9e3078d831ce6fc,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -173,7 +175,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 10273
-  AndroidMinSdkVersion: 26
+  AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -291,7 +293,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: e6225b42809c1a847b1774e17a41be1f, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -520,122 +522,8 @@ PlayerSettings:
     m_StaticBatching: 1
     m_DynamicBatching: 0
   - m_BuildTarget: iPhone
-    m_Icons:
-    - m_Textures:
-      - {fileID: 2800000, guid: 50f07d81dcf4c4fbb8b2c326e7d4b6bb, type: 3}
-      m_Width: 1024
-      m_Height: 1024
-      m_Kind: 4
-      m_SubKind: App Store
-    - m_Textures:
-      - {fileID: 2800000, guid: 83a6483f53e5f448a84f14d9e27ee822, type: 3}
-      m_Width: 60
-      m_Height: 60
-      m_Kind: 2
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: b3252f95d1a3a4cd58871ff4716e5d8b, type: 3}
-      m_Width: 40
-      m_Height: 40
-      m_Kind: 2
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: b3252f95d1a3a4cd58871ff4716e5d8b, type: 3}
-      m_Width: 40
-      m_Height: 40
-      m_Kind: 2
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: f9da296bf616b458d98a63f8f7557004, type: 3}
-      m_Width: 20
-      m_Height: 20
-      m_Kind: 2
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: dd034f60ad00b407089fd2248eb2bae0, type: 3}
-      m_Width: 87
-      m_Height: 87
-      m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: 753491ea5c3de4f928409d7f8e96b80b, type: 3}
-      m_Width: 58
-      m_Height: 58
-      m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: ead39ea5b70b3401090170549ec78dda, type: 3}
-      m_Width: 29
-      m_Height: 29
-      m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: 753491ea5c3de4f928409d7f8e96b80b, type: 3}
-      m_Width: 58
-      m_Height: 58
-      m_Kind: 1
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: ead39ea5b70b3401090170549ec78dda, type: 3}
-      m_Width: 29
-      m_Height: 29
-      m_Kind: 1
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: e5d044c008db542bf8371f7e7c91bb50, type: 3}
-      m_Width: 120
-      m_Height: 120
-      m_Kind: 3
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: b36a145ee04964f5a8fbc998f53ad10f, type: 3}
-      m_Width: 80
-      m_Height: 80
-      m_Kind: 3
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: b36a145ee04964f5a8fbc998f53ad10f, type: 3}
-      m_Width: 80
-      m_Height: 80
-      m_Kind: 3
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: b3252f95d1a3a4cd58871ff4716e5d8b, type: 3}
-      m_Width: 40
-      m_Height: 40
-      m_Kind: 3
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: 73c9e6fc8fd374b119e143a8bc52bf28, type: 3}
-      m_Width: 180
-      m_Height: 180
-      m_Kind: 0
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: e5d044c008db542bf8371f7e7c91bb50, type: 3}
-      m_Width: 120
-      m_Height: 120
-      m_Kind: 0
-      m_SubKind: iPhone
-    - m_Textures:
-      - {fileID: 2800000, guid: 4cbc9362b367d44d58da2b6146f50c17, type: 3}
-      m_Width: 167
-      m_Height: 167
-      m_Kind: 0
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: 6cb233dc65f0b459daf2ad80d17034da, type: 3}
-      m_Width: 152
-      m_Height: 152
-      m_Kind: 0
-      m_SubKind: iPad
-    - m_Textures:
-      - {fileID: 2800000, guid: 819aa9af392f0436686712974e387eb9, type: 3}
-      m_Width: 76
-      m_Height: 76
-      m_Kind: 0
-      m_SubKind: iPad
-  m_BuildTargetBatching: []
+    m_StaticBatching: 0
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: MacStandaloneSupport
@@ -1060,7 +948,6 @@ PlayerSettings:
   syncCapabilities: 0
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -1094,9 +981,9 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
-      InternetClient: True
+      CodeGeneration: False
       BackgroundMediaPlayback: False
-      Proximity: False
+      InternetClient: True
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
