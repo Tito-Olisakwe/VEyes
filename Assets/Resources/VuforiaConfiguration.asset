@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVNCRUdRMy8vLy8vQUFBQUtGQkZuZ0F2MzBTQ3FYcjkySVR5ZW5SK25FblU2NG91MXU0Y2h3SmxnNFRwQ3g2enJpaWpCSlFQNkUrdHJNb3dmb3I3UHYxaUNkaFhmQ3lTV1F6VUkyV1pvSFJ4OHBJNklkY3V2NEo3TDBjb3ljMzZqUXdyK0V0N3pMWnJ6eE9BaGhRWVhYcDVyZllWZ1pEcnRHUTJWL2cvOWNiWnlGdGFSUzFYeDg2U3h5UUdXaUU3bWRjUVQ1cjRzT0dJeDYrZ2pOSThua2p1d3ZKWDd3cDR0azBxZmQwUEE5NmdQSG5xbjJjNGYyc0pqc3NadjMrVzgyUndMRFlFWlh1dFpjTWFzZnFDaEdlUDJSd2NOOU9zcW1xM1gwZ0g4RzREa3lNaDU0TWpSM3Y0czJreVNzNm8zQjJPd0dNS2RZckVUejRzZ1ZRUFZpeUdLOHFxVVRpUlVUemZjTmJ4SXJKdUR6c2VKekEvN3JQQnpreDY=
+    vuforiaLicenseKey: ASxibOD/////AAABmThcH3PKg0zJo/Kz45cWZooSKZd9I5R94dlKeNVtfR/HEFI0Z5smS0DOcD8nEZZgmDK6PqoX9LAn7YRJg8kBX5TbFq3NUtI99rLrGgQtxwjhSoArdvs1GVlV/3pxPm82tVaX9WFN5sB0D/+Ozj9NrItxU1IgThYifk58b20WfPPsBAMsFybrEv+hQDhB3sR7FLLZWF17ctApwTM7nPNbZpOnzrrmVOY3B9nA3gg9TaO/96bxnT5Trb8MYP7YBTHQq/bDP6iEvpDyrv/NtYlIQ3gSwjvKsMaC1wL8ZC3zujSsf+t4S+ajH3eDyUovstIU8e57JHtrNEr2AdmYwXJfeAPCizgNIP0XlOdWwZRNSm+X
+    ufoLicenseKey: QVd3SERhVC8vLy8vQUFBQUtBbDFsQXliMTBjUmpIakhVZTkzem4xNVByZXFCMHVFb2sxTHlpL1pBdHhZcEpXeFl2aDZ4dEtYalFqdWIyY05lYlE4UStmek1IWGtMeUJ3ZThGOHE0S1ArM3lFeStyQzF3MmJUU1p0WFRUR0lOZE5FL3hDenZ6VUdGS1laOG93ZGd2VFhCalhHY0RmSlpVclZWNEU3bGdHK3ZMenp2S1g0ZlBjem5oc1gzVmRxd09OVkdXS1VxNDMyVXJZWW4zYjU1Ti92NUVlUCtGb3ZreTRvN2dPZVRidGwwaFZQelhqN2tXQ1JmUXJKUHBWZFBiSkFxVmxHZWMvRDE0MlNCSmhMVUJCaTJkV0RVVXlBYS9vSklLWHluakJJMWgxcTI5cU9sSWJLSkVQR0VxT0xuUXBNQ1U4amY5RVZadWVSQkJDZkQyN3I0WDArUENQUXpZSFc5QkVIMGM2clFvQmxzSTd0T2p6aG94UVRVcE0=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -23,8 +23,8 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.0.2
-    eulaAcceptedVersions: '{"Values":["","0.0","10.25","10.27"]}'
+    version: 10.28.4
+    eulaAcceptedVersions: '{"Values":["","0.0","10.27","10.25","10.28"]}'
   database:
     disableModelExtraction: 0
   shaders:

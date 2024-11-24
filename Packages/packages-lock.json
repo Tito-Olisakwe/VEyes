@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "file:com.ptc.vuforia.engine-10.27.3.tgz",
+      "version": "file:com.ptc.vuforia.engine-10.28.4.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -107,6 +107,13 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mobile.android-logcat": {
+      "version": "1.4.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: cf2c39d3a8d554a4f95734873278fbc2
+  productGUID: 0011232b80b9b724793630d23b84cdca
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -12,13 +12,13 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: m22
   productName: VEyes
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 0
-  m_ShowUnitySplashLogo: 0
+  m_SplashScreenBackgroundColor: {r: 0.011764706, g: 0.18039216, b: 0.42352942, a: 1}
+  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
@@ -39,7 +39,9 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: e0866a3fe6007224a9e3078d831ce6fc,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -140,7 +142,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 10.27.3
+  bundleVersion: 10.28.4
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -162,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.vuforia.engine.VuforiaEngine
+    Android: com.veyes.VEyes
     Lumin: com.PTCInc.VuforiaEngine
     Standalone: com.PTCInc.VuforiaEngine
     iPhone: com.vuforia.engine.VuforiaEngine
@@ -171,8 +173,8 @@ PlayerSettings:
     VisionOS: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 10273
+  overrideDefaultApplicationIdentifier: 0
+  AndroidBundleVersionCode: 10284
   AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -291,7 +293,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: e6225b42809c1a847b1774e17a41be1f, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -299,226 +301,119 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures:
-      - {fileID: 2800000, guid: b15ee11232b424d68898398fe3cab2d0, type: 3}
-      m_Width: 192
-      m_Height: 192
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: fe689abc1067e4869a58c87d14482078, type: 3}
-      m_Width: 144
-      m_Height: 144
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 827b731c62d8d42c093899fa44179bb2, type: 3}
-      m_Width: 96
-      m_Height: 96
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: d85ccead4ae714b0682b281b94267e7f, type: 3}
-      m_Width: 72
-      m_Height: 72
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 6fae8ff752f494bacb3c562bed7dea2d, type: 3}
-      m_Width: 48
-      m_Height: 48
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 98e9bf2eec31e492d858fd08e8223ca4, type: 3}
-      m_Width: 36
-      m_Height: 36
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: b15ee11232b424d68898398fe3cab2d0, type: 3}
-      m_Width: 192
-      m_Height: 192
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: fe689abc1067e4869a58c87d14482078, type: 3}
-      m_Width: 144
-      m_Height: 144
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 827b731c62d8d42c093899fa44179bb2, type: 3}
-      m_Width: 96
-      m_Height: 96
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: d85ccead4ae714b0682b281b94267e7f, type: 3}
-      m_Width: 72
-      m_Height: 72
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 6fae8ff752f494bacb3c562bed7dea2d, type: 3}
-      m_Width: 48
-      m_Height: 48
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 98e9bf2eec31e492d858fd08e8223ca4, type: 3}
-      m_Width: 36
-      m_Height: 36
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 17890dd0942584ef7b1886ffc15250a1, type: 3}
-      - {fileID: 2800000, guid: 44f5763023bff4d3dbfb13b858cff6ce, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 2c78137d6929a46249f124bad6c3c8a8, type: 3}
-      - {fileID: 2800000, guid: b4f6488d420d24b3fa919a0d3a53bcf2, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
       m_Width: 324
       m_Height: 324
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: ad05b3745e8844194bae1994e47cd9b3, type: 3}
-      - {fileID: 2800000, guid: 78781f500fd7e4133b37547cebfe0231, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
       m_Width: 216
       m_Height: 216
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 96655ac7a5e9f46d0af3ba32b5ce1d2c, type: 3}
-      - {fileID: 2800000, guid: 02ad1a4d05ea64249bdee469ef9fe40c, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
       m_Width: 162
       m_Height: 162
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: aebd9fdb8f30d4d18b318f4312877849, type: 3}
-      - {fileID: 2800000, guid: 71bdaccaa006c43bf9b5eaa2ef7bad56, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
       m_Width: 108
       m_Height: 108
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 7b3a41568325b49058f0f996eb569a3b, type: 3}
-      - {fileID: 2800000, guid: 626c896dc88974a9fb360ba573bb43e5, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
       m_Width: 81
       m_Height: 81
       m_Kind: 2
       m_SubKind: 
-  - m_BuildTarget: iPhone
-    m_Icons:
-    - m_Textures: []
-      m_Width: 180
-      m_Height: 180
-      m_Kind: 0
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 120
-      m_Height: 120
-      m_Kind: 0
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 167
-      m_Height: 167
-      m_Kind: 0
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 152
-      m_Height: 152
-      m_Kind: 0
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 76
-      m_Height: 76
-      m_Kind: 0
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 120
-      m_Height: 120
-      m_Kind: 3
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 80
-      m_Height: 80
-      m_Kind: 3
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 80
-      m_Height: 80
-      m_Kind: 3
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 40
-      m_Height: 40
-      m_Kind: 3
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 87
-      m_Height: 87
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 192
+      m_Height: 192
       m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 58
-      m_Height: 58
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 144
+      m_Height: 144
       m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 29
-      m_Height: 29
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 96
+      m_Height: 96
       m_Kind: 1
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 58
-      m_Height: 58
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 72
+      m_Height: 72
       m_Kind: 1
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 29
-      m_Height: 29
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 48
+      m_Height: 48
       m_Kind: 1
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 60
-      m_Height: 60
-      m_Kind: 2
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 40
-      m_Height: 40
-      m_Kind: 2
-      m_SubKind: iPhone
-    - m_Textures: []
-      m_Width: 40
-      m_Height: 40
-      m_Kind: 2
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 20
-      m_Height: 20
-      m_Kind: 2
-      m_SubKind: iPad
-    - m_Textures: []
-      m_Width: 1024
-      m_Height: 1024
-      m_Kind: 4
-      m_SubKind: App Store
-  m_BuildTargetBatching:
-  - m_BuildTarget: Standalone
-    m_StaticBatching: 1
-    m_DynamicBatching: 0
-  - m_BuildTarget: tvOS
-    m_StaticBatching: 1
-    m_DynamicBatching: 0
-  - m_BuildTarget: Android
-    m_StaticBatching: 1
-    m_DynamicBatching: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 2bcc3d452d7c10043af7725ba1cdf02f, type: 3}
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 0
+      m_SubKind: 
   - m_BuildTarget: iPhone
     m_Icons:
     - m_Textures:
@@ -1007,14 +902,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: VEyes
-  metroPackageVersion: 10.27.3.0
+  metroPackageName: alu-ar-vr-portfolio-project
+  metroPackageVersion: 10.28.4.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Vuforia
   metroCertificateIssuer: Vuforia
   metroCertificateNotAfter: 80a428773e1cd501
-  metroApplicationDescription: VEyes
+  metroApplicationDescription: alu-ar-vr-portfolio-project
   wsaImages:
     65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png
     65661: Assets/Common/Icons/UWP/StoreLogo.scale-125.png
@@ -1060,7 +955,6 @@ PlayerSettings:
   syncCapabilities: 0
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -1072,6 +966,7 @@ PlayerSettings:
       PrivateNetworkClientServer: False
       InternetClientServer: False
       VideosLibrary: False
+      BackgroundMediaPlayback: False
       Objects3D: False
       RemoteSystem: False
       BlockedChatMessages: False
@@ -1093,10 +988,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: True
-      BackgroundMediaPlayback: False
       Proximity: False
+      CodeGeneration: False
+      EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
@@ -1147,8 +1042,8 @@ PlayerSettings:
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
-    m_VersionCode: 10273
-    m_VersionName: 10.27.3
+    m_VersionCode: 10284
+    m_VersionName: 10.28.4
   hmiPlayerDataPath: 
   hmiForceSRGBBlit: 1
   embeddedLinuxEnableGamepadInput: 1
@@ -1160,7 +1055,7 @@ PlayerSettings:
   cloudProjectId: 91653810-16e6-4b06-a462-13c06033310d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: VEyes
+  projectName: 
   organizationId: unity_b6352350657c9592b600
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
